@@ -17,5 +17,5 @@ variable "instance_keypair" {
 variable "private_instance_count" {
   description = "AWS Ec2 private instance count"
   type=number
-  default = 2
+  default = 1
 }
